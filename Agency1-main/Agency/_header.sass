@@ -1,0 +1,42 @@
+header
+    position: fixed
+    background-color: #212529
+    width: 100%
+    z-index: 1
+    .menu
+        padding: 22px 0
+        .imgbox
+            width: 180px
+            img
+                &:hover
+                    cursor: pointer
+        nav
+            a
+                margin-right: 44px
+                font-size: 16px
+                color: #ffff
+                transition: .6s
+                &:hover
+                    cursor: pointer
+                    color: #ffc800
+        .icon
+            display: flex
+            border: 1px solid #fff
+            border-radius: 4px
+            color: #ffff
+            padding: 10px
+            &:hover
+                cursor: pointer
+            i,h5
+                margin: 0 3px
+                &:hover
+                    cursor: pointer
+    @media (min-width: 300px)
+        nav
+            display: none
+    @media (min-width: 992px)
+        .menu
+            nav
+                display: block
+            .icon
+                display: none

@@ -1,0 +1,37 @@
+#portfolio
+    background-color: #f8f9fa
+    h1,h3,h2,h4
+        &:hover
+            cursor: text
+    .imgbox
+        position: relative
+        margin-top: 25px
+        img
+            transition: .78s
+        span
+            position: absolute
+            display: none
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            font-size: 120px
+            color: #fff
+        &:hover
+            background-color: rgb(255, 200, 0)
+            img
+                opacity: .1
+                cursor: pointer
+            span
+                display: block
+                cursor: pointer
+    .textbox
+        text-align: center
+        background-color: #fff
+        padding: 20px 0
+        h2
+            font-weight: 600
+            font-size: 30px
+            margin: 8px 0
+        h4
+            color: #6c757d
+            font-size: 18px
